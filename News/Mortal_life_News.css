@@ -66,9 +66,6 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-  padding-top: 100px; /* Чтобы контент не перекрывался фиксированной навигацией */
-  min-height: 100vh; /* Чтобы центрироваться по высоте страницы */
 }
 
 main {
