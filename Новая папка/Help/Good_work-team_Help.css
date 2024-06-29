@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.All_header_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.Logo, .Top_menu {
+  display: flex;
+  align-items: center;
+}
+
+.Top_menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.Top_menu li {
+  margin-right: 25px;
+}
+
+.Top_menu a {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.Top_menu a:hover {
+  color: #4b0082;
+}
+
+.Logo h1 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.img {
+  padding: 70px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  padding-top: 100px; /* Чтобы контент не перекрывался фиксированной навигацией */
+  min-height: 100vh; /* Чтобы центрироваться по высоте страницы */
+}
+
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+.developer {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.center {
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.footer {
+  background-color: #2b3035;
+  bottom: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 19px;
+  padding: 20px;
+  font-weight: bold;
+  color: #fafaff;
+}
+
+h1 {
+  text-align: left;
+}
+h2 {
+  text-align: left;
+  padding: 20px;
+}
