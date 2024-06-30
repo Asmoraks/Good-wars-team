@@ -27,15 +27,13 @@ function handleImageClick() {
   if (dialognumber == 1) {
     Textdialog("Здраствуйте, я - Спамтон Г Спамтон, [[Лучший продавец номер one]]!");
   } else if (dialognumber == 2) {
-    Textdialog("Я ваш [Помочь] в этом [Гиперссылка заблокированна]!");
+    Textdialog("Я ваш [Помочь] в этом [Гиперссылка заблокирована]!");
   } else if (dialognumber == 3) {
     Textdialog("[Error 404] МАЙК НЕ ДРУГ......");
-  } else if (dialognumber == 4) {
-    Textdialog("Запомните не {доверять} [Телевизор]..... ОН ШАРЛОТАН");
   } else if (dialognumber == 5) {
     Textdialog("Ой.... неважно, я хотел сказать что я готов [Помощь]");
   } else if (dialognumber == 6) {
-    Textdialog("Пароль {7camp219} Буду ждать вас на нашем [Гиперссылка заблокированна]!");
+    Textdialog("Пароль {7camp219} Буду ждать вас на нашем [Гиперссылка заблокирована]!");
   
   }
 }
